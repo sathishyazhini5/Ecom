@@ -1,0 +1,102 @@
+2024-06-19 12:43:59 info: =================================
+2024-06-19 12:43:59 info: ======= ENV: development =======
+2024-06-19 12:43:59 info: 🚀 App listening on the port 7777
+2024-06-19 12:43:59 info: =================================
+2024-06-19 12:50:11 info: =================================
+2024-06-19 12:50:11 info: ======= ENV: development =======
+2024-06-19 12:50:11 info: 🚀 App listening on the port 7777
+2024-06-19 12:50:11 info: =================================
+2024-06-19 15:03:04 info: =================================
+2024-06-19 15:03:04 info: ======= ENV: development =======
+2024-06-19 15:03:04 info: 🚀 App listening on the port 7777
+2024-06-19 15:03:04 info: =================================
+2024-06-19 15:04:07 info: =================================
+2024-06-19 15:04:07 info: ======= ENV: development =======
+2024-06-19 15:04:07 info: 🚀 App listening on the port 7777
+2024-06-19 15:04:07 info: =================================
+2024-06-19 15:04:27 info: [0mGET /api/getproduct/getproduct [33m404[0m 13.926 ms - 164[0m
+2024-06-19 15:04:27 info: [0mGET /api/getproduct/getproduct [33m404[0m 4.024 ms - 164[0m
+2024-06-19 15:04:46 info: [0mGET /api/getproduct [32m200[0m 157.519 ms - 674[0m
+2024-06-19 15:05:43 info: [0mGET /api/getproduct [32m200[0m 142.729 ms - 674[0m
+2024-06-19 15:07:29 info: [0mGET /api/getproduct/getproduct [33m404[0m 5.123 ms - 164[0m
+2024-06-19 15:07:29 info: [0mGET /api/getproduct/getproduct [33m404[0m 3.226 ms - 164[0m
+2024-06-19 15:07:57 info: [0mGET /api/getproduct/getproduct [33m404[0m 2.352 ms - 164[0m
+2024-06-19 15:07:57 info: [0mGET /api/getproduct/getproduct [33m404[0m 1.404 ms - 164[0m
+2024-06-19 15:08:20 info: =================================
+2024-06-19 15:08:20 info: ======= ENV: development =======
+2024-06-19 15:08:20 info: 🚀 App listening on the port 7777
+2024-06-19 15:08:20 info: =================================
+2024-06-19 15:59:47 info: [0mGET /api/getproduct [32m200[0m 85.959 ms - 674[0m
+2024-06-19 15:59:47 info: [0mGET /api/getproduct [36m304[0m 62.977 ms - -[0m
+2024-06-19 15:59:47 info: [0mGET /api/getproduct [36m304[0m 85.365 ms - -[0m
+2024-06-19 15:59:47 info: [0mGET /api/getproduct [36m304[0m 74.348 ms - -[0m
+2024-06-19 15:59:47 info: [0mGET /api/getproduct [36m304[0m 66.286 ms - -[0m
+2024-06-19 16:09:21 info: [0mGET /api/getproduct [36m304[0m 89.067 ms - -[0m
+2024-06-19 16:09:21 info: [0mGET /api/getproduct [36m304[0m 111.125 ms - -[0m
+2024-06-19 16:09:21 info: [0mGET /api/getproduct [36m304[0m 84.814 ms - -[0m
+2024-06-19 16:09:21 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 9.035 ms - 174[0m
+2024-06-19 16:09:21 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 10.411 ms - 174[0m
+2024-06-19 16:09:21 info: [0mGET /api/getproduct [36m304[0m 88.773 ms - -[0m
+2024-06-19 16:09:21 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 3.746 ms - 174[0m
+2024-06-19 16:09:21 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 6.102 ms - 174[0m
+2024-06-19 16:09:21 info: [0mGET /api/getproduct [36m304[0m 89.785 ms - -[0m
+2024-06-19 16:09:21 info: [0mGET /api/getproduct [36m304[0m 84.478 ms - -[0m
+2024-06-19 16:09:27 info: [0mGET /api/getproduct [36m304[0m 123.875 ms - -[0m
+2024-06-19 16:09:27 info: [0mGET /api/getproduct [36m304[0m 130.391 ms - -[0m
+2024-06-19 16:09:27 info: [0mGET /api/getproduct [36m304[0m 106.023 ms - -[0m
+2024-06-19 16:09:27 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 4.010 ms - 174[0m
+2024-06-19 16:09:27 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 4.253 ms - 174[0m
+2024-06-19 16:09:27 info: [0mGET /api/getproduct [36m304[0m 112.945 ms - -[0m
+2024-06-19 16:09:27 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 4.307 ms - 174[0m
+2024-06-19 16:09:27 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 4.918 ms - 174[0m
+2024-06-19 16:09:27 info: [0mGET /api/getproduct [36m304[0m 119.000 ms - -[0m
+2024-06-19 16:09:27 info: [0mGET /api/getproduct [36m304[0m 93.163 ms - -[0m
+2024-06-19 16:25:58 info: [0mGET /api/getproduct [36m304[0m 86.033 ms - -[0m
+2024-06-19 16:25:58 info: [0mGET /api/getproduct [36m304[0m 65.279 ms - -[0m
+2024-06-19 16:25:58 info: [0mGET /api/getproduct [36m304[0m 97.743 ms - -[0m
+2024-06-19 16:29:42 info: [0mGET /api/getproduct [32m200[0m 85.308 ms - 674[0m
+2024-06-19 16:33:06 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 3.422 ms - 174[0m
+2024-06-19 16:33:06 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 1.437 ms - 174[0m
+2024-06-19 16:33:06 info: [0mGET /api/getproduct [36m304[0m 97.923 ms - -[0m
+2024-06-19 16:33:06 info: [0mGET /api/getproduct [36m304[0m 109.459 ms - -[0m
+2024-06-19 16:33:06 info: [0mGET /api/getproduct [36m304[0m 97.368 ms - -[0m
+2024-06-19 16:42:48 info: =================================
+2024-06-19 16:42:48 info: ======= ENV: development =======
+2024-06-19 16:42:48 info: 🚀 App listening on the port 7777
+2024-06-19 16:42:48 info: =================================
+2024-06-19 16:43:13 info: [0mGET /api/getproduct [36m304[0m 142.627 ms - -[0m
+2024-06-19 16:43:13 info: [0mGET /api/getproduct [36m304[0m 118.706 ms - -[0m
+2024-06-19 16:43:14 info: [0mGET /api/getproduct [36m304[0m 94.007 ms - -[0m
+2024-06-19 16:43:14 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 10.120 ms - 174[0m
+2024-06-19 16:43:14 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 9.359 ms - 174[0m
+2024-06-19 16:43:14 info: [0mGET /api/getproduct [36m304[0m 95.929 ms - -[0m
+2024-06-19 16:43:14 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 5.655 ms - 174[0m
+2024-06-19 16:43:14 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 7.977 ms - 174[0m
+2024-06-19 16:43:14 info: [0mGET /api/getproduct [36m304[0m 84.266 ms - -[0m
+2024-06-19 16:43:14 info: [0mGET /api/getproduct [36m304[0m 66.296 ms - -[0m
+2024-06-19 16:51:43 info: [0mGET /api/getproduct [36m304[0m 115.643 ms - -[0m
+2024-06-19 16:51:43 info: [0mGET /api/getproduct [36m304[0m 82.174 ms - -[0m
+2024-06-19 16:51:43 info: [0mGET /api/getproduct [36m304[0m 94.760 ms - -[0m
+2024-06-19 16:52:02 info: [0mGET /api/getproduct [36m304[0m 132.215 ms - -[0m
+2024-06-19 16:52:02 info: [0mGET /api/getproduct [36m304[0m 176.042 ms - -[0m
+2024-06-19 16:52:02 info: [0mGET /api/getproduct [36m304[0m 88.144 ms - -[0m
+2024-06-19 16:52:02 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 4.761 ms - 174[0m
+2024-06-19 16:52:02 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 7.160 ms - 174[0m
+2024-06-19 16:52:02 info: [0mGET /api/getproduct [36m304[0m 116.442 ms - -[0m
+2024-06-19 16:52:02 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 2.167 ms - 174[0m
+2024-06-19 16:52:02 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 1.835 ms - 174[0m
+2024-06-19 16:52:02 info: [0mGET /api/getproduct [36m304[0m 105.159 ms - -[0m
+2024-06-19 16:52:02 info: [0mGET /api/getproduct [36m304[0m 73.777 ms - -[0m
+2024-06-19 16:57:06 info: [0mGET /api/getproduct [36m304[0m 128.829 ms - -[0m
+2024-06-19 16:57:06 info: [0mGET /api/getproduct [36m304[0m 112.227 ms - -[0m
+2024-06-19 16:57:06 info: [0mGET /api/getproduct [36m304[0m 146.756 ms - -[0m
+2024-06-19 16:58:07 info: [0mGET /api/getproduct [36m304[0m 90.624 ms - -[0m
+2024-06-19 16:58:07 info: [0mGET /api/getproduct [36m304[0m 143.835 ms - -[0m
+2024-06-19 16:58:07 info: [0mGET /api/getproduct [36m304[0m 112.830 ms - -[0m
+2024-06-19 16:58:07 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 3.213 ms - 174[0m
+2024-06-19 16:58:07 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 5.136 ms - 174[0m
+2024-06-19 16:58:07 info: [0mGET /api/getproduct [36m304[0m 84.775 ms - -[0m
+2024-06-19 16:58:07 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 4.106 ms - 174[0m
+2024-06-19 16:58:07 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 4.613 ms - 174[0m
+2024-06-19 16:58:07 info: [0mGET /api/getproduct [36m304[0m 71.666 ms - -[0m
+2024-06-19 16:58:07 info: [0mGET /api/getproduct [36m304[0m 66.605 ms - -[0m

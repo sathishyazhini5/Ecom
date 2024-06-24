@@ -1,0 +1,151 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model OrgType {
+  id           BigInt         @id @default(autoincrement())
+  org_type     String
+  type_desc    String
+  Organization Organization[]
+
+  @@map("org_type")
+}
+
+model Organization {
+  org_id      BigInt  @id @default(autoincrement())
+  org_name    String
+  pan_no      String?
+  gst_no      String?
+  org_type    OrgType @relation(fields: [org_type_id], references: [id])
+  org_type_id BigInt
+  logo_path   String?
+  website     String?
+  email_id    String
+  home_url    String?
+
+  users          User[]
+  customerUsers  CustomerUser[]
+  productTypes   ProductType[]
+  categories     Category[]
+  subCategories  SubCategory[]
+  products       Product[]
+
+  @@map("organization")
+}
+
+
+model Roles {
+  role_id   BigInt @id @default(autoincrement())
+  role_name String
+  role_desc String
+  User      User[]
+
+  @@map("roles")
+}
+
+model User {
+  user_id      BigInt       @id @default(autoincrement())
+  organization Organization @relation(fields: [org_id], references: [org_id])
+  org_id       BigInt
+  user_name    String
+  roles        Roles        @relation(fields: [role_id], references: [role_id])
+  role_id      BigInt
+  password     String
+  @@map("user")
+}
+
+model CustomerUser {
+  user_id            BigInt  @id @default(autoincrement()) @map("user_id")
+  first_name         String  @map("first_name")
+  last_name          String  @map("last_name")
+  dob                String? @map("dob")
+  gender             String? @map("gender")
+  mobile_number      String? @map("mobile_number")
+  alternative_number String? @map("alternative_number")
+  marital_status     String? @map("marital_status")
+  anniversary_date   String? @map("anniversary_date")
+  email_id           String? @map("email_id")
+  user_type          String? @map("user_type")
+  org_id             BigInt  @map("org_id")
+
+  organization       Organization @relation(fields: [org_id], references: [org_id])
+
+  @@map("customer")
+}
+
+model ProductType {
+  product_type_id    BigInt       @id @default(autoincrement())
+  product_type_name  String
+  product_type_desc  String?
+  org_id             BigInt
+  img_small          String?
+  img_big            String?
+  organization       Organization @relation(fields: [org_id], references: [org_id])
+  categories         Category[]
+  subCategories      SubCategory[]
+  products           Product[]
+
+  @@map("product_type")
+}
+
+model Category {
+  category_id        BigInt       @id @default(autoincrement())
+  category_name      String
+  category_desc      String?
+  product_type_id    BigInt
+  org_id             BigInt
+  img_small          String?
+  img_big            String?
+  productType        ProductType  @relation(fields: [product_type_id], references: [product_type_id])
+  organization       Organization @relation(fields: [org_id], references: [org_id])
+  subCategories      SubCategory[]
+  products           Product[]
+
+  @@map("category")
+}
+
+model SubCategory {
+  sub_category_id    BigInt       @id @default(autoincrement())
+  sub_category_name  String
+  sub_category_desc  String?
+  category_id        BigInt
+  product_type_id    BigInt
+  org_id             BigInt
+  img_small          String?
+  img_big            String?
+  category           Category     @relation(fields: [category_id], references: [category_id])
+  productType        ProductType  @relation(fields: [product_type_id], references: [product_type_id])
+  organization       Organization @relation(fields: [org_id], references: [org_id])
+  products           Product[]
+
+  @@map("sub_category")
+}
+
+model Product {
+  product_id         BigInt       @id @default(autoincrement())
+  product_name       String
+  product_desc       String?
+  product_type_id    BigInt?
+  category_id        BigInt?
+  sub_category_id    BigInt?
+   img_urls             String[]
+  manuf_price        Decimal?
+  retail_price       Decimal?
+  product_unique_no  BigInt?
+  org_id             BigInt
+  reward_points      Int?
+  productType        ProductType? @relation(fields: [product_type_id], references: [product_type_id])
+  category           Category?    @relation(fields: [category_id], references: [category_id])
+  subCategory        SubCategory? @relation(fields: [sub_category_id], references: [sub_category_id])
+  organization       Organization @relation(fields: [org_id], references: [org_id])
+
+  @@map("product")
+}

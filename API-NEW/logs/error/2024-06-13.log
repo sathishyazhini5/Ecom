@@ -1,0 +1,86 @@
+2024-06-13 15:06:21 error: 
+Invalid `prisma.product.create()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\product\product.ts:51:42
+
+  48 };
+  49 
+  50 // Save product using Prisma
+→ 51 const product = await prisma.product.create({
+       data: {
+         product_name: "Example Product",
+         product_desc: "This is a sample product.",
+         product_type_id: "1",
+         category_id: "1",
+         sub_category_id: "1",
+         manuf_price: "100.50",
+         retail_price: "150.75",
+         product_unique_no: "123456789",
+         org_id: "2",
+         reward_points: "10",
+                        ~~~~
+         img_urls: [
+           "/uploads/1718271381094-931883798.jpg"
+         ]
+       }
+     })
+
+Argument `reward_points`: Invalid value provided. Expected Int or Null, provided String.
+2024-06-13 15:06:21 error: [POST] /api/products >> StatusCode:: 500, Message:: Failed to create product
+2024-06-13 15:08:15 error: Error creating product: 
+Invalid `prisma.product.create()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\product\product.ts:55:42
+
+  52 };
+  53 
+  54 // Save product using Prisma
+→ 55 const product = await prisma.product.create({
+       data: {
+         product_name: "Example Product",
+         product_desc: "This is a sample product.",
+         product_type_id: 1,
+         category_id: 1,
+         sub_category_id: 1,
+         manuf_price: 100.5,
+         retail_price: 150.75,
+         product_unique_no: 123456789,
+         org_id: 2,
+         reward_points: 10,
+         img_urls: [
+         ~~~~~~~~
+           "/uploads/1718271494938-976427210.jpg"
+         ],
+     ?   product_id?: BigInt,
+     ?   img_small?: String | Null
+       }
+     })
+
+Unknown argument `img_urls`. Available options are marked with ?.
+2024-06-13 15:08:15 error: [POST] /api/products >> StatusCode:: 500, Message:: Failed to create product: 
+Invalid `prisma.product.create()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\product\product.ts:55:42
+
+  52 };
+  53 
+  54 // Save product using Prisma
+→ 55 const product = await prisma.product.create({
+       data: {
+         product_name: "Example Product",
+         product_desc: "This is a sample product.",
+         product_type_id: 1,
+         category_id: 1,
+         sub_category_id: 1,
+         manuf_price: 100.5,
+         retail_price: 150.75,
+         product_unique_no: 123456789,
+         org_id: 2,
+         reward_points: 10,
+         img_urls: [
+         ~~~~~~~~
+           "/uploads/1718271494938-976427210.jpg"
+         ],
+     ?   product_id?: BigInt,
+     ?   img_small?: String | Null
+       }
+     })
+
+Unknown argument `img_urls`. Available options are marked with ?.

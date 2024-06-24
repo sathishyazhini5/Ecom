@@ -1,0 +1,282 @@
+2024-06-22 21:24:34 info: ======= ENV: development =======
+2024-06-22 21:24:34 info: 🚀 App listening on the port 7777
+2024-06-22 21:26:43 info: ======= ENV: development =======
+2024-06-22 21:26:43 info: 🚀 App listening on the port 7777
+2024-06-22 21:45:26 info: [0mGET /api/getproduct [36m304[0m 303.599 ms - -[0m
+2024-06-22 21:45:27 info: [0mGET /api/getproduct [36m304[0m 199.264 ms - -[0m
+2024-06-22 21:45:27 info: [0mGET /api/getproduct [36m304[0m 134.042 ms - -[0m
+2024-06-22 21:45:27 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 21:45:27 info: Incoming request: GET /uploads/1718271873693-902031442.jpg
+2024-06-22 21:45:27 info: Request headers:
+2024-06-22 21:45:27 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 21:45:27 info: Incoming request: GET /uploads/1718272185584-558644428.jpg
+2024-06-22 21:45:27 info: Request headers:
+2024-06-22 21:45:27 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 59.448 ms - 174[0m
+2024-06-22 21:45:27 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 65.047 ms - 174[0m
+2024-06-22 21:45:27 info: [0mGET /api/getproduct [36m304[0m 132.897 ms - -[0m
+2024-06-22 21:45:27 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 21:45:27 info: Incoming request: GET /uploads/1718272185584-558644428.jpg
+2024-06-22 21:45:27 info: Request headers:
+2024-06-22 21:45:27 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 21:45:27 info: Incoming request: GET /uploads/1718271873693-902031442.jpg
+2024-06-22 21:45:27 info: Request headers:
+2024-06-22 21:45:27 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 11.121 ms - 174[0m
+2024-06-22 21:45:27 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 12.472 ms - 174[0m
+2024-06-22 21:45:27 info: [0mGET /api/getproduct [36m304[0m 135.122 ms - -[0m
+2024-06-22 21:45:27 info: [0mGET /api/getproduct [36m304[0m 98.575 ms - -[0m
+2024-06-22 21:48:59 info: [0mGET /api/getproduct [36m304[0m 131.101 ms - -[0m
+2024-06-22 21:49:05 info: [0mGET /api/getproduct [36m304[0m 76.895 ms - -[0m
+2024-06-22 21:49:05 info: [0mGET /api/getproduct [36m304[0m 112.310 ms - -[0m
+2024-06-22 21:49:05 info: [0mGET /api/getproduct [36m304[0m 72.855 ms - -[0m
+2024-06-22 21:49:05 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 21:49:05 info: Incoming request: GET /uploads/1718272185584-558644428.jpg
+2024-06-22 21:49:05 info: Request headers:
+2024-06-22 21:49:05 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 21:49:05 info: Incoming request: GET /uploads/1718271873693-902031442.jpg
+2024-06-22 21:49:05 info: Request headers:
+2024-06-22 21:49:05 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 9.490 ms - 174[0m
+2024-06-22 21:49:05 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 10.444 ms - 174[0m
+2024-06-22 21:49:05 info: [0mGET /api/getproduct [36m304[0m 86.734 ms - -[0m
+2024-06-22 21:49:05 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 21:49:05 info: Incoming request: GET /uploads/1718271873693-902031442.jpg
+2024-06-22 21:49:05 info: Request headers:
+2024-06-22 21:49:05 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 21:49:05 info: Incoming request: GET /uploads/1718272185584-558644428.jpg
+2024-06-22 21:49:05 info: Request headers:
+2024-06-22 21:49:05 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 7.754 ms - 174[0m
+2024-06-22 21:49:05 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 9.262 ms - 174[0m
+2024-06-22 21:49:05 info: [0mGET /api/getproduct [36m304[0m 82.817 ms - -[0m
+2024-06-22 21:49:06 info: [0mGET /api/getproduct [36m304[0m 73.237 ms - -[0m
+2024-06-22 22:12:36 info: [0mGET /api/getproduct [36m304[0m 146.860 ms - -[0m
+2024-06-22 22:12:36 info: [0mGET /api/getproduct [36m304[0m 157.909 ms - -[0m
+2024-06-22 22:12:37 info: [0mGET /api/getproduct [36m304[0m 79.813 ms - -[0m
+2024-06-22 22:12:37 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:12:37 info: Incoming request: GET /uploads/1718271873693-902031442.jpg
+2024-06-22 22:12:37 info: Request headers:
+2024-06-22 22:12:37 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 4.282 ms - 174[0m
+2024-06-22 22:12:37 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:12:37 info: Incoming request: GET /uploads/1718272185584-558644428.jpg
+2024-06-22 22:12:37 info: Request headers:
+2024-06-22 22:12:37 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 5.856 ms - 174[0m
+2024-06-22 22:12:37 info: [0mGET /api/getproduct [36m304[0m 79.213 ms - -[0m
+2024-06-22 22:12:37 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:12:37 info: Incoming request: GET /uploads/1718271873693-902031442.jpg
+2024-06-22 22:12:37 info: Request headers:
+2024-06-22 22:12:37 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 3.633 ms - 174[0m
+2024-06-22 22:12:37 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:12:37 info: Incoming request: GET /uploads/1718272185584-558644428.jpg
+2024-06-22 22:12:37 info: Request headers:
+2024-06-22 22:12:37 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 3.675 ms - 174[0m
+2024-06-22 22:12:37 info: [0mGET /api/getproduct [36m304[0m 85.115 ms - -[0m
+2024-06-22 22:12:37 info: [0mGET /api/getproduct [36m304[0m 244.714 ms - -[0m
+2024-06-22 22:33:51 info: [0mGET /api/getproduct [36m304[0m 831.231 ms - -[0m
+2024-06-22 22:33:52 info: [0mGET /api/getproduct [36m304[0m 114.108 ms - -[0m
+2024-06-22 22:33:52 info: [0mGET /api/getproduct [36m304[0m 77.748 ms - -[0m
+2024-06-22 22:33:52 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:33:52 info: Incoming request: GET /uploads/1718271873693-902031442.jpg
+2024-06-22 22:33:52 info: Request headers:
+2024-06-22 22:33:52 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:33:52 info: Incoming request: GET /uploads/1718272185584-558644428.jpg
+2024-06-22 22:33:52 info: Request headers:
+2024-06-22 22:33:52 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 17.108 ms - 174[0m
+2024-06-22 22:33:52 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 17.700 ms - 174[0m
+2024-06-22 22:33:52 info: [0mGET /api/getproduct [36m304[0m 111.121 ms - -[0m
+2024-06-22 22:33:52 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:33:52 info: Incoming request: GET /uploads/1718271873693-902031442.jpg
+2024-06-22 22:33:52 info: Request headers:
+2024-06-22 22:33:52 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 10.028 ms - 174[0m
+2024-06-22 22:33:52 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:33:52 info: Incoming request: GET /uploads/1718272185584-558644428.jpg
+2024-06-22 22:33:52 info: Request headers:
+2024-06-22 22:33:52 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 11.448 ms - 174[0m
+2024-06-22 22:33:52 info: [0mGET /api/getproduct [36m304[0m 95.252 ms - -[0m
+2024-06-22 22:33:52 info: [0mGET /api/getproduct [36m304[0m 73.642 ms - -[0m
+2024-06-22 22:39:25 info: ======= ENV: development =======
+2024-06-22 22:39:25 info: 🚀 App listening on the port 7777
+2024-06-22 22:40:48 info: [0mGET /api/getproduct [36m304[0m 240.708 ms - -[0m
+2024-06-22 22:40:48 info: [0mGET /api/getproduct [36m304[0m 107.594 ms - -[0m
+2024-06-22 22:40:48 info: [0mGET /api/getproduct [36m304[0m 93.849 ms - -[0m
+2024-06-22 22:40:48 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:40:48 info: Incoming request: GET /uploads/1718271873693-902031442.jpg
+2024-06-22 22:40:48 info: Request headers:
+2024-06-22 22:40:48 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 14.289 ms - 174[0m
+2024-06-22 22:40:48 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:40:48 info: Incoming request: GET /uploads/1718272185584-558644428.jpg
+2024-06-22 22:40:48 info: Request headers:
+2024-06-22 22:40:48 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 7.839 ms - 174[0m
+2024-06-22 22:40:48 info: [0mGET /api/getproduct [36m304[0m 154.721 ms - -[0m
+2024-06-22 22:40:48 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:40:48 info: Incoming request: GET /uploads/1718271873693-902031442.jpg
+2024-06-22 22:40:48 info: Request headers:
+2024-06-22 22:40:48 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 5.879 ms - 174[0m
+2024-06-22 22:40:48 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:40:48 info: Incoming request: GET /uploads/1718272185584-558644428.jpg
+2024-06-22 22:40:48 info: Request headers:
+2024-06-22 22:40:48 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 5.240 ms - 174[0m
+2024-06-22 22:40:48 info: [0mGET /api/getproduct [36m304[0m 138.612 ms - -[0m
+2024-06-22 22:40:48 info: [0mGET /api/getproduct [36m304[0m 96.916 ms - -[0m
+2024-06-22 22:48:52 info: ======= ENV: development =======
+2024-06-22 22:48:52 info: 🚀 App listening on the port 7777
+2024-06-22 22:49:02 info: [0mGET /api/getproduct [36m304[0m 183.719 ms - -[0m
+2024-06-22 22:49:02 info: [0mGET /api/getproduct [36m304[0m 98.105 ms - -[0m
+2024-06-22 22:49:02 info: [0mGET /api/getproduct [36m304[0m 89.949 ms - -[0m
+2024-06-22 22:49:02 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:49:02 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:49:02 info: Incoming request: GET /uploads/1718271873693-902031442.jpg
+2024-06-22 22:49:02 info: Request headers:
+2024-06-22 22:49:02 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 16.607 ms - 174[0m
+2024-06-22 22:49:02 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:49:02 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:49:02 info: Incoming request: GET /uploads/1718272185584-558644428.jpg
+2024-06-22 22:49:02 info: Request headers:
+2024-06-22 22:49:02 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 28.957 ms - 174[0m
+2024-06-22 22:49:02 info: [0mGET /api/getproduct [36m304[0m 160.277 ms - -[0m
+2024-06-22 22:49:02 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:49:02 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:49:02 info: Incoming request: GET /uploads/1718271873693-902031442.jpg
+2024-06-22 22:49:02 info: Request headers:
+2024-06-22 22:49:02 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:49:02 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:49:02 info: Incoming request: GET /uploads/1718272185584-558644428.jpg
+2024-06-22 22:49:02 info: Request headers:
+2024-06-22 22:49:02 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 44.504 ms - 174[0m
+2024-06-22 22:49:02 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 58.493 ms - 174[0m
+2024-06-22 22:49:02 info: [0mGET /api/getproduct [36m304[0m 133.146 ms - -[0m
+2024-06-22 22:49:02 info: [0mGET /api/getproduct [36m304[0m 97.527 ms - -[0m
+2024-06-22 22:52:58 info: ======= ENV: development =======
+2024-06-22 22:52:58 info: 🚀 App listening on the port 7777
+2024-06-22 22:53:28 info: [0mGET /api/getproduct [36m304[0m 118.374 ms - -[0m
+2024-06-22 22:53:28 info: [0mGET /api/getproduct [36m304[0m 84.385 ms - -[0m
+2024-06-22 22:53:28 info: [0mGET /api/getproduct [36m304[0m 71.191 ms - -[0m
+2024-06-22 22:53:28 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:53:28 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:53:28 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 12.838 ms - 14[0m
+2024-06-22 22:53:28 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:53:28 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:53:28 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 15.212 ms - 14[0m
+2024-06-22 22:53:28 info: [0mGET /api/getproduct [36m304[0m 107.622 ms - -[0m
+2024-06-22 22:53:28 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:53:28 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:53:28 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 8.018 ms - 14[0m
+2024-06-22 22:53:28 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:53:28 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:53:28 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 11.008 ms - 14[0m
+2024-06-22 22:53:28 info: [0mGET /api/getproduct [36m304[0m 79.980 ms - -[0m
+2024-06-22 22:53:29 info: [0mGET /api/getproduct [36m304[0m 229.463 ms - -[0m
+2024-06-22 22:53:39 info: [0mGET /api/getproduct [36m304[0m 80.271 ms - -[0m
+2024-06-22 22:53:39 info: [0mGET /api/getproduct [36m304[0m 116.808 ms - -[0m
+2024-06-22 22:53:39 info: [0mGET /api/getproduct [36m304[0m 88.265 ms - -[0m
+2024-06-22 22:53:39 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:53:39 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:53:39 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 4.740 ms - 14[0m
+2024-06-22 22:53:39 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:53:39 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:53:39 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 10.517 ms - 14[0m
+2024-06-22 22:53:39 info: [0mGET /api/getproduct [36m304[0m 80.917 ms - -[0m
+2024-06-22 22:53:39 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:53:39 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 22:53:39 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 4.720 ms - 14[0m
+2024-06-22 22:53:39 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:53:39 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 22:53:39 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 8.720 ms - 14[0m
+2024-06-22 22:53:39 info: [0mGET /api/getproduct [36m304[0m 78.511 ms - -[0m
+2024-06-22 22:53:39 info: [0mGET /api/getproduct [36m304[0m 71.644 ms - -[0m
+2024-06-22 23:03:02 info: [0mGET /api/getproduct [36m304[0m 299.013 ms - -[0m
+2024-06-22 23:03:02 info: [0mGET /api/getproduct [36m304[0m 100.765 ms - -[0m
+2024-06-22 23:03:02 info: [0mGET /api/getproduct [36m304[0m 81.925 ms - -[0m
+2024-06-22 23:03:02 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 23:03:02 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 23:03:02 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 5.150 ms - 14[0m
+2024-06-22 23:03:02 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 23:03:02 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 23:03:02 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 9.034 ms - 14[0m
+2024-06-22 23:03:02 info: [0mGET /api/getproduct [36m304[0m 118.773 ms - -[0m
+2024-06-22 23:03:02 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 23:03:02 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 23:03:02 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 4.679 ms - 14[0m
+2024-06-22 23:03:02 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 23:03:02 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 23:03:02 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 3.207 ms - 14[0m
+2024-06-22 23:03:02 info: [0mGET /api/getproduct [36m304[0m 102.625 ms - -[0m
+2024-06-22 23:03:02 info: [0mGET /api/getproduct [36m304[0m 82.742 ms - -[0m
+2024-06-22 23:06:33 info: [0mGET /api/getproduct [32m200[0m 88.069 ms - 674[0m
+2024-06-22 23:06:59 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 23:06:59 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 23:06:59 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 11.273 ms - 14[0m
+2024-06-22 23:06:59 info: Incoming request: GET /favicon.ico
+2024-06-22 23:06:59 info: Request headers:
+2024-06-22 23:06:59 info: [0mGET /favicon.ico [33m404[0m 8.063 ms - 150[0m
+2024-06-22 23:11:51 info: [0mGET /api/getproduct [36m304[0m 177.757 ms - -[0m
+2024-06-22 23:11:51 info: [0mGET /api/getproduct [36m304[0m 152.225 ms - -[0m
+2024-06-22 23:11:51 info: [0mGET /api/getproduct [36m304[0m 84.840 ms - -[0m
+2024-06-22 23:11:51 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 23:11:51 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 23:11:51 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 5.872 ms - 14[0m
+2024-06-22 23:11:51 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 23:11:51 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 23:11:51 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 9.710 ms - 14[0m
+2024-06-22 23:11:51 info: [0mGET /api/getproduct [36m304[0m 229.314 ms - -[0m
+2024-06-22 23:11:52 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 23:11:52 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 23:11:52 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 4.303 ms - 14[0m
+2024-06-22 23:11:52 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 23:11:52 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718272185584-558644428.jpg
+2024-06-22 23:11:52 info: [0mGET /uploads/1718272185584-558644428.jpg [33m404[0m 8.518 ms - 14[0m
+2024-06-22 23:11:52 info: [0mGET /api/getproduct [36m304[0m 109.244 ms - -[0m
+2024-06-22 23:11:52 info: [0mGET /api/getproduct [36m304[0m 76.272 ms - -[0m
+2024-06-22 23:12:08 info: Serving file: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 23:12:08 error: File not found: D:\ECOMMERCE\ecom\API-NEW\src\uploads\1718271873693-902031442.jpg
+2024-06-22 23:12:08 info: [0mGET /uploads/1718271873693-902031442.jpg [33m404[0m 3.507 ms - 14[0m
+2024-06-22 23:17:42 info: ======= ENV: development =======
+2024-06-22 23:17:42 info: 🚀 App listening on the port 7777
+2024-06-22 23:18:14 info: [0mGET /api/getproduct [36m304[0m 153.640 ms - -[0m
+2024-06-22 23:18:14 info: [0mGET /api/getproduct [36m304[0m 125.432 ms - -[0m
+2024-06-22 23:18:14 info: [0mGET /api/getproduct [36m304[0m 198.856 ms - -[0m
+2024-06-22 23:18:14 info: [0mGET /uploads/1718272185584-558644428.jpg [32m200[0m 16.132 ms - 148048[0m
+2024-06-22 23:18:14 info: [0mGET /uploads/1718271873693-902031442.jpg [32m200[0m 11.774 ms - 148048[0m
+2024-06-22 23:18:14 info: [0mGET /api/getproduct [36m304[0m 120.075 ms - -[0m
+2024-06-22 23:18:14 info: [0mGET /uploads/1718272185584-558644428.jpg [32m200[0m 4.236 ms - 148048[0m
+2024-06-22 23:18:14 info: [0mGET /uploads/1718271873693-902031442.jpg [32m200[0m 4.164 ms - 148048[0m
+2024-06-22 23:18:14 info: [0mGET /api/getproduct [36m304[0m 93.304 ms - -[0m
+2024-06-22 23:18:14 info: [0mGET /api/getproduct [36m304[0m 69.444 ms - -[0m
+2024-06-22 23:20:44 info: [0mGET /api/getproduct [36m304[0m 319.109 ms - -[0m
+2024-06-22 23:20:44 info: [0mGET /api/getproduct [36m304[0m 89.902 ms - -[0m
+2024-06-22 23:20:44 info: [0mGET /api/getproduct [36m304[0m 70.345 ms - -[0m
+2024-06-22 23:20:44 info: [0mGET /uploads/1718272185584-558644428.jpg [32m200[0m 3.664 ms - 148048[0m
+2024-06-22 23:20:44 info: [0mGET /uploads/1718271873693-902031442.jpg [32m200[0m 3.465 ms - 148048[0m
+2024-06-22 23:20:44 info: [0mGET /api/getproduct [36m304[0m 80.896 ms - -[0m
+2024-06-22 23:20:44 info: [0mGET /uploads/1718271873693-902031442.jpg [32m200[0m 4.062 ms - 148048[0m
+2024-06-22 23:20:44 info: [0mGET /uploads/1718272185584-558644428.jpg [32m200[0m 2.712 ms - 148048[0m
+2024-06-22 23:20:44 info: [0mGET /api/getproduct [36m304[0m 76.789 ms - -[0m
+2024-06-22 23:20:44 info: [0mGET /api/getproduct [36m304[0m 70.950 ms - -[0m
+2024-06-22 23:21:27 info: [0mGET /uploads/1718272185584-558644428.jpg [32m200[0m 3.509 ms - 148048[0m
+2024-06-22 23:31:49 info: ======= ENV: development =======
+2024-06-22 23:31:49 info: 🚀 App listening on the port 7777
+2024-06-22 23:38:30 info: ======= ENV: development =======
+2024-06-22 23:38:30 info: 🚀 App listening on the port 7777
+2024-06-22 23:38:52 info: [0mGET /api/getproduct [36m304[0m 142.908 ms - -[0m
+2024-06-22 23:38:52 info: [0mGET /api/getproduct [36m304[0m 83.097 ms - -[0m
+2024-06-22 23:38:52 info: [0mGET /api/getproduct [36m304[0m 71.968 ms - -[0m
+2024-06-22 23:38:52 info: [0mGET /uploads/1718272185584-558644428.jpg [36m304[0m 2.754 ms - -[0m
+2024-06-22 23:38:53 info: [0mGET /uploads/1718271873693-902031442.jpg [32m200[0m 12.060 ms - 148048[0m
+2024-06-22 23:38:53 info: [0mGET /api/getproduct [36m304[0m 104.212 ms - -[0m
+2024-06-22 23:38:53 info: [0mGET /uploads/1718272185584-558644428.jpg [36m304[0m 3.135 ms - -[0m
+2024-06-22 23:38:53 info: [0mGET /uploads/1718271873693-902031442.jpg [32m200[0m 9.202 ms - 148048[0m
+2024-06-22 23:38:53 info: [0mGET /api/getproduct [36m304[0m 79.424 ms - -[0m
+2024-06-22 23:38:53 info: [0mGET /api/getproduct [36m304[0m 84.400 ms - -[0m
+2024-06-22 23:45:10 info: [0mGET /uploads/1718272185584-558644428.jpg [32m200[0m 9.638 ms - 148048[0m
+2024-06-22 23:45:10 info: Incoming request: GET /favicon.ico
+2024-06-22 23:45:10 info: Request headers:
+2024-06-22 23:45:10 info: [0mGET /favicon.ico [33m404[0m 8.930 ms - 150[0m
+2024-06-22 23:46:28 info: ======= ENV: development =======
+2024-06-22 23:46:28 info: 🚀 App listening on the port 7777
+2024-06-22 23:47:55 info: [0mGET /api/getproduct [36m304[0m 86.743 ms - -[0m
+2024-06-22 23:47:55 info: [0mGET /api/getproduct [36m304[0m 72.794 ms - -[0m
+2024-06-22 23:48:09 info: [0mGET /api/getproduct [36m304[0m 124.303 ms - -[0m
+2024-06-22 23:48:10 info: [0mGET /api/getproduct [36m304[0m 202.349 ms - -[0m
+2024-06-22 23:48:10 info: [0mGET /api/getproduct [36m304[0m 97.341 ms - -[0m
+2024-06-22 23:48:10 info: [0mGET /api/getproduct [36m304[0m 99.769 ms - -[0m
+2024-06-22 23:48:10 info: [0mGET /uploads/1718272185584-558644428.jpg [36m304[0m 6.469 ms - -[0m
+2024-06-22 23:48:10 info: [0mGET /uploads/1718271873693-902031442.jpg [32m200[0m 18.239 ms - 148048[0m
+2024-06-22 23:48:10 info: [0mGET /api/getproduct [36m304[0m 116.812 ms - -[0m
+2024-06-22 23:48:10 info: [0mGET /api/getproduct [36m304[0m 76.410 ms - -[0m

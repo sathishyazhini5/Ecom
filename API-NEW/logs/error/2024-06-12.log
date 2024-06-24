@@ -1,0 +1,374 @@
+2024-06-12 10:45:47 error: uncaughtException: @prisma/client did not initialize yet. Please run "prisma generate" and try to import it again.
+In case this error is unexpected for you, please report it in https://pris.ly/prisma-prisma-bug-report
+Error: @prisma/client did not initialize yet. Please run "prisma generate" and try to import it again.
+In case this error is unexpected for you, please report it in https://pris.ly/prisma-prisma-bug-report
+    at new PrismaClient (D:\ECOMMERCE\ecom\API-NEW\node_modules\.pnpm\@prisma+client@5.13.0_prisma@5.13.0\node_modules\@prisma\client\scripts\default-index.js:43:11)
+    at saveUser (d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:51:20)
+    at Layer.handle [as handle_request] (D:\ECOMMERCE\ecom\API-NEW\node_modules\.pnpm\express@4.19.2\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ECOMMERCE\ecom\API-NEW\node_modules\.pnpm\express@4.19.2\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\ECOMMERCE\ecom\API-NEW\node_modules\.pnpm\express@4.19.2\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\ECOMMERCE\ecom\API-NEW\node_modules\.pnpm\express@4.19.2\node_modules\express\lib\router\layer.js:95:5)
+    at D:\ECOMMERCE\ecom\API-NEW\node_modules\.pnpm\express@4.19.2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\ECOMMERCE\ecom\API-NEW\node_modules\.pnpm\express@4.19.2\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\ECOMMERCE\ecom\API-NEW\node_modules\.pnpm\express@4.19.2\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\ECOMMERCE\ecom\API-NEW\node_modules\.pnpm\express@4.19.2\node_modules\express\lib\router\index.js:175:3)
+2024-06-12 10:57:43 error: 
+Invalid `prisma.organization.findUnique()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:14:49
+
+  11 const {org_id} = req.params
+  12 const NOT_FOUND = "organization not found"
+  13 
+→ 14 const users = await prisma.organization.findUnique({
+       where: {
+     +   org_id: BigInt
+       },
+       select: {
+         User: true
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 10:57:43 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: Failed to get users
+2024-06-12 11:24:02 error: 
+Invalid `prisma.organization.findUnique()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:49
+
+  14 const {org_id} = req.params
+  15 const NOT_FOUND = "organization not found"
+  16 
+→ 17 const users = await prisma.organization.findUnique({
+       where: {
+     +   org_id: BigInt
+       },
+       select: {
+         User: true
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 11:24:02 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: Failed to get users
+2024-06-12 11:25:35 error: 
+Invalid `prisma.organization.findUnique()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:49
+
+  14 const {org_id} = req.params
+  15 const NOT_FOUND = "organization not found"
+  16 
+→ 17 const users = await prisma.organization.findUnique({
+       where: {
+     +   org_id: BigInt
+       },
+       select: {
+         User: true
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 11:25:35 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: Failed to get users
+2024-06-12 11:25:59 error: 
+Invalid `prisma.organization.findUnique()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:49
+
+  14 const {org_id} = req.params
+  15 const NOT_FOUND = "organization not found"
+  16 
+→ 17 const users = await prisma.organization.findUnique({
+       where: {
+     +   org_id: BigInt
+       },
+       select: {
+         User: true
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 11:25:59 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: Failed to get users
+2024-06-12 11:35:48 error: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 11:35:48 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 11:56:26 error: Cannot convert :org_id to a BigInt
+2024-06-12 11:56:26 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: Cannot convert :org_id to a BigInt
+2024-06-12 11:58:21 error: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 11:58:21 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:00:18 error: Cannot convert :org_id to a BigInt
+2024-06-12 13:00:18 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: Cannot convert :org_id to a BigInt
+2024-06-12 13:24:56 error: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:24:56 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:29:38 error: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:29:38 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:29:40 error: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:29:40 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:30:54 error: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:30:54 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 14:31:19 error: org_id is missing or invalid
+2024-06-12 14:31:19 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 400, Message:: org_id is missing or invalid
+2024-06-12 14:31:42 error: org_id is missing or invalid
+2024-06-12 14:31:42 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 400, Message:: org_id is missing or invalid
+2024-06-12 14:44:02 error: Organization not found
+2024-06-12 14:44:02 error: [GET] /api/users/allusers/123 >> StatusCode:: 404, Message:: Organization not found
+2024-06-12 14:44:28 error: Organization not found
+2024-06-12 14:44:28 error: [GET] /api/users/allusers/123 >> StatusCode:: 404, Message:: Organization not found

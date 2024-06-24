@@ -1,0 +1,433 @@
+2024-06-12 10:37:47 info: =================================
+2024-06-12 10:37:47 info: ======= ENV: development =======
+2024-06-12 10:37:47 info: 🚀 App listening on the port 7777
+2024-06-12 10:37:47 info: =================================
+2024-06-12 10:55:55 info: =================================
+2024-06-12 10:55:55 info: ======= ENV: development =======
+2024-06-12 10:55:55 info: 🚀 App listening on the port 7777
+2024-06-12 10:55:55 info: =================================
+2024-06-12 10:57:43 error: 
+Invalid `prisma.organization.findUnique()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:14:49
+
+  11 const {org_id} = req.params
+  12 const NOT_FOUND = "organization not found"
+  13 
+→ 14 const users = await prisma.organization.findUnique({
+       where: {
+     +   org_id: BigInt
+       },
+       select: {
+         User: true
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 10:57:43 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: Failed to get users
+2024-06-12 10:57:44 info: [0mGET /api/users/allusers/:org_id?org_id=2 [31m500[0m 238.386 ms - 33[0m
+2024-06-12 11:07:11 info: =================================
+2024-06-12 11:07:11 info: ======= ENV: development =======
+2024-06-12 11:07:11 info: 🚀 App listening on the port 7777
+2024-06-12 11:07:11 info: =================================
+2024-06-12 11:22:51 info: =================================
+2024-06-12 11:22:51 info: ======= ENV: development =======
+2024-06-12 11:22:51 info: 🚀 App listening on the port 7777
+2024-06-12 11:22:51 info: =================================
+2024-06-12 11:23:37 info: [0mPOST /api/users/saveuser [32m201[0m 314.012 ms - 185[0m
+2024-06-12 11:24:02 error: 
+Invalid `prisma.organization.findUnique()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:49
+
+  14 const {org_id} = req.params
+  15 const NOT_FOUND = "organization not found"
+  16 
+→ 17 const users = await prisma.organization.findUnique({
+       where: {
+     +   org_id: BigInt
+       },
+       select: {
+         User: true
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 11:24:02 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: Failed to get users
+2024-06-12 11:24:02 info: [0mGET /api/users/allusers/:org_id?org_id=2 [31m500[0m 163.459 ms - 33[0m
+2024-06-12 11:25:35 error: 
+Invalid `prisma.organization.findUnique()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:49
+
+  14 const {org_id} = req.params
+  15 const NOT_FOUND = "organization not found"
+  16 
+→ 17 const users = await prisma.organization.findUnique({
+       where: {
+     +   org_id: BigInt
+       },
+       select: {
+         User: true
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 11:25:35 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: Failed to get users
+2024-06-12 11:25:35 info: [0mGET /api/users/allusers/:org_id?org_id=2 [31m500[0m 98.113 ms - 33[0m
+2024-06-12 11:25:54 info: =================================
+2024-06-12 11:25:54 info: ======= ENV: development =======
+2024-06-12 11:25:54 info: 🚀 App listening on the port 7777
+2024-06-12 11:25:54 info: =================================
+2024-06-12 11:25:59 error: 
+Invalid `prisma.organization.findUnique()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:49
+
+  14 const {org_id} = req.params
+  15 const NOT_FOUND = "organization not found"
+  16 
+→ 17 const users = await prisma.organization.findUnique({
+       where: {
+     +   org_id: BigInt
+       },
+       select: {
+         User: true
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 11:25:59 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: Failed to get users
+2024-06-12 11:25:59 info: [0mGET /api/users/allusers/:org_id?org_id=2 [31m500[0m 213.365 ms - 33[0m
+2024-06-12 11:35:10 info: =================================
+2024-06-12 11:35:10 info: ======= ENV: development =======
+2024-06-12 11:35:10 info: 🚀 App listening on the port 7777
+2024-06-12 11:35:10 info: =================================
+2024-06-12 11:35:48 error: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 11:35:48 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 11:35:48 info: [0mGET /api/users/allusers/:org_id?org_id=2 [31m500[0m 165.006 ms - 800[0m
+2024-06-12 11:56:14 info: =================================
+2024-06-12 11:56:14 info: ======= ENV: development =======
+2024-06-12 11:56:14 info: 🚀 App listening on the port 7777
+2024-06-12 11:56:14 info: =================================
+2024-06-12 11:56:26 error: Cannot convert :org_id to a BigInt
+2024-06-12 11:56:26 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: Cannot convert :org_id to a BigInt
+2024-06-12 11:56:26 info: [0mGET /api/users/allusers/:org_id?org_id=2 [31m500[0m 56.202 ms - 48[0m
+2024-06-12 11:58:09 info: =================================
+2024-06-12 11:58:09 info: ======= ENV: development =======
+2024-06-12 11:58:09 info: 🚀 App listening on the port 7777
+2024-06-12 11:58:09 info: =================================
+2024-06-12 11:58:21 error: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 11:58:21 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 11:58:21 info: [0mGET /api/users/allusers/:org_id?org_id=2 [31m500[0m 296.802 ms - 800[0m
+2024-06-12 13:00:12 info: =================================
+2024-06-12 13:00:12 info: ======= ENV: development =======
+2024-06-12 13:00:12 info: 🚀 App listening on the port 7777
+2024-06-12 13:00:12 info: =================================
+2024-06-12 13:00:18 error: Cannot convert :org_id to a BigInt
+2024-06-12 13:00:18 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: Cannot convert :org_id to a BigInt
+2024-06-12 13:00:18 info: [0mGET /api/users/allusers/:org_id?org_id=2 [31m500[0m 52.047 ms - 48[0m
+2024-06-12 13:24:47 info: =================================
+2024-06-12 13:24:47 info: ======= ENV: development =======
+2024-06-12 13:24:47 info: 🚀 App listening on the port 7777
+2024-06-12 13:24:47 info: =================================
+2024-06-12 13:24:56 error: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:24:56 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:24:56 info: [0mGET /api/users/allusers/:org_id?org_id=2 [31m500[0m 167.374 ms - 800[0m
+2024-06-12 13:29:31 info: =================================
+2024-06-12 13:29:31 info: ======= ENV: development =======
+2024-06-12 13:29:31 info: 🚀 App listening on the port 7777
+2024-06-12 13:29:31 info: =================================
+2024-06-12 13:29:38 error: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:29:38 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:29:38 info: [0mGET /api/users/allusers/:org_id?org_id=2 [31m500[0m 148.525 ms - 800[0m
+2024-06-12 13:29:40 error: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:29:40 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:29:40 info: [0mGET /api/users/allusers/:org_id?org_id=2 [31m500[0m 117.586 ms - 800[0m
+2024-06-12 13:30:54 error: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:30:54 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 500, Message:: 
+Invalid `prisma.user.findMany()` invocation in
+d:\ECOMMERCE\ecom\API-NEW\src\controllers\userController\user.ts:17:41
+
+  14 const NOT_FOUND = "Organization not found";
+  15 
+  16 // Retrieve users for the specified organization ID
+→ 17 const users = await prisma.user.findMany({
+       where: {
+     +   org_id: {
+     +     equals: BigInt | BigIntFieldRefInput,
+     +     in: BigInt[] | ListBigIntFieldRefInput,
+     +     notIn: BigInt[] | ListBigIntFieldRefInput,
+     +     lt: BigInt | BigIntFieldRefInput,
+     +     lte: BigInt | BigIntFieldRefInput,
+     +     gt: BigInt | BigIntFieldRefInput,
+     +     gte: BigInt | BigIntFieldRefInput,
+     +     not: BigInt | NestedBigIntFilter
+     +   }
+       }
+     })
+
+Argument `org_id` is missing.
+2024-06-12 13:30:54 info: [0mGET /api/users/allusers/:org_id?org_id=2 [31m500[0m 211.873 ms - 800[0m
+2024-06-12 14:25:37 info: =================================
+2024-06-12 14:25:37 info: ======= ENV: development =======
+2024-06-12 14:25:37 info: 🚀 App listening on the port 7777
+2024-06-12 14:25:37 info: =================================
+2024-06-12 14:26:17 info: =================================
+2024-06-12 14:26:17 info: ======= ENV: development =======
+2024-06-12 14:26:17 info: 🚀 App listening on the port 7777
+2024-06-12 14:26:17 info: =================================
+2024-06-12 14:31:19 error: org_id is missing or invalid
+2024-06-12 14:31:19 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 400, Message:: org_id is missing or invalid
+2024-06-12 14:31:19 info: [0mGET /api/users/allusers/:org_id?org_id=2 [33m400[0m 127.245 ms - 42[0m
+2024-06-12 14:31:42 error: org_id is missing or invalid
+2024-06-12 14:31:42 error: [GET] /api/users/allusers/:org_id >> StatusCode:: 400, Message:: org_id is missing or invalid
+2024-06-12 14:31:42 info: [0mGET /api/users/allusers/:org_id?org_id=2 [33m400[0m 11.190 ms - 42[0m
+2024-06-12 14:44:02 error: Organization not found
+2024-06-12 14:44:02 error: [GET] /api/users/allusers/123 >> StatusCode:: 404, Message:: Organization not found
+2024-06-12 14:44:02 info: [0mGET /api/users/allusers/123?org_id=2 [33m404[0m 149.858 ms - 36[0m
+2024-06-12 14:44:14 info: =================================
+2024-06-12 14:44:14 info: ======= ENV: development =======
+2024-06-12 14:44:14 info: 🚀 App listening on the port 7777
+2024-06-12 14:44:14 info: =================================
+2024-06-12 14:44:28 error: Organization not found
+2024-06-12 14:44:28 error: [GET] /api/users/allusers/123 >> StatusCode:: 404, Message:: Organization not found
+2024-06-12 14:44:28 info: [0mGET /api/users/allusers/123?org_id=2 [33m404[0m 144.270 ms - 36[0m

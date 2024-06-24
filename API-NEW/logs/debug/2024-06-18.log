@@ -1,0 +1,11 @@
+2024-06-18 11:20:46 info: =================================
+2024-06-18 11:20:46 info: ======= ENV: development =======
+2024-06-18 11:20:46 info: 🚀 App listening on the port 7777
+2024-06-18 11:20:46 info: =================================
+2024-06-18 11:31:57 info: [0mGET /api/getproduct [36m304[0m 471.642 ms - -[0m
+2024-06-18 11:31:57 info: [0mGET /api/getproduct [36m304[0m 196.647 ms - -[0m
+2024-06-18 11:31:57 info: [0mGET /api/getproduct [36m304[0m 143.823 ms - -[0m
+2024-06-18 11:32:00 info: [0mGET /api/getproduct [36m304[0m 95.888 ms - -[0m
+2024-06-18 11:32:00 info: [0mGET /api/getproduct [36m304[0m 151.964 ms - -[0m
+2024-06-18 11:32:03 info: [0mGET /api/getproduct [36m304[0m 120.541 ms - -[0m
+2024-06-18 11:32:03 info: [0mGET /api/getproduct [36m304[0m 114.537 ms - -[0m
